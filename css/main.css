@@ -3,4 +3,20 @@
   width: 7rem;
 }
 
+nav div a {
+  color: #b9bdca !important;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.3rem !important;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #fafafa !important;
+}
+
+.linkLogo {
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=main.css.map */

@@ -19,4 +19,17 @@ a:hover {
   cursor: pointer;
 }
 
+.metodosPagos {
+    margin-bottom: -30px;
+    min-height: 0;
+}
+
+.tarjetaPagos {
+    float: left;
+    height: 54px;
+    width: 48px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
 /*# sourceMappingURL=main.css.map */

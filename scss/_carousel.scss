@@ -14,7 +14,7 @@
 }
 
 .cardOrden {
-    @include textos(flex, space-between, center);
+    @include textos(flex, center, center);
     margin: 20px !important;
     padding: 0;
 }

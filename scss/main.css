@@ -55,6 +55,13 @@ a:hover {
   box-shadow: 10px 4px 15px #b9bdca;
 }
 
+.imgHeading:hover {
+  scale: 105%;
+  transition: scale 1s;
+  cursor: pointer;
+  box-shadow: 10px 4px 15px #0b4f6c;
+}
+
 .linkLogo {
   cursor: pointer;
 }/*# sourceMappingURL=main.css.map */

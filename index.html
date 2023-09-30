@@ -118,77 +118,149 @@
     <hr class="featurette-divider">
 
     <section>
-        <div class="container">
+        <div class="container sectTarj" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <div class="metodosPagos">
                 <div class="grupoPagos container row text-center">
-                <section class="col-lg-4">
-                    <img class="tarjetaPagos rounded-circle " data-bs-toggle="modal" data-bs-target="#exampleModal"
-                        src="img/tarjeta.jpg" alt="Logo Tarjeta">
-                    <h5>Tarjeta de Crédito</h5>
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Promociones bancarias</h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <p class="fw-semibold">Ahora 12, 6 y 3 cuotas</p>
-                                    <p>En productos seleccionados con Visa, American Express, Cabal, Tarjeta Shopping,
-                                        Cordobesa y Mastercard bancarias.</p>
-                                    <!-- SEPARADOR -->
-                                    <hr class="featurette-divider">
-                                    <p class="fw-semibold">Mismo precio en hasta 6 cuotas con estas tarjetas
-                                        En productos seleccionados.</p>
-                                    <img class="imgTarj" src="img/visa.png" alt="Logo Visa">
-                                    <img class="imgTarj" src="img/mastercard.png" alt="">
-                                    <img class="imgTarj" src="img/american.png" alt="">
-                                    <img class="imgTarj" src="img/mercadopago.jpeg" alt="">
-                                    <img class="imgTarj" src="img/bitcoin.png" alt="">
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-primary"
-                                        data-bs-dismiss="modal">Cerrar</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>   
-                <section class="col-lg-4">    
-                    <img class="tarjetaPagos rounded-circle" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                        src="img/tarjetadebito.jpg" alt="Logo Tarjeta">
-                    <h5>Tarjeta de Débito</h5>
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Promociones bancarias</h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <p class="fw-semibold">Tarjeta de débito</p>
-                                    <p>Acreditación instantánea.</p>
-                                    <!-- SEPARADOR -->
-                                    <hr class="featurette-divider">
-                                    <p class="fw-semibold">Dinero en tu cuenta de Mercado Pago</p>
-                                    <p>Al finalizar tu compra, pagás con el dinero disponible en tu cuenta. Podés ingresar dinero a Mercado Pago por Débito inmediato, transferencia bancaria o en efectivo.</p>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-primary"
-                                        data-bs-dismiss="modal">Cerrar</button>
+                    <h2 class="mb-4">Métodos de pago</h2>
+                    <section class="col-lg-4">
+                        <img class="tarjetaPagos rounded-circle imgTarj" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal" src="img/tarjeta.jpg" alt="Logo Tarjeta">
+                        <h5>Tarjeta de Crédito</h5>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Métodos de pago</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="fw-semibold">Ahora 12, 6 y 3 cuotas</p>
+                                        <p>En productos seleccionados con Visa, American Express, Cabal, Tarjeta
+                                            Shopping,
+                                            Cordobesa y Mastercard bancarias.</p>
+                                        <!-- SEPARADOR -->
+                                        <hr class="featurette-divider">
+                                        <p class="fw-semibold">Mismo precio en hasta 6 cuotas con estas tarjetas
+                                            En productos seleccionados.</p>
+                                        <img class="imgTarj" src="img/visa.png" alt="Logo Visa">
+                                        <img class="imgTarj" src="img/mastercard.png" alt="">
+                                        <img class="imgTarj" src="img/american.png" alt="">
+                                        <img class="imgTarj" src="img/mercadopago.jpeg" alt="">
+                                        <img class="imgTarj" src="img/bitcoin.png" alt="">
+                                        <!-- SEPARADOR -->
+                                        <hr class="featurette-divider">
+                                        <h4 class="fw-semibold">Tarjetas de débito</h4>
+                                        <p class="fw-semibold">Acreditación instantánea.</p>
+                                        <!-- SEPARADOR -->
+                                        <hr class="featurette-divider">
+                                        <p class="fw-semibold">Dinero en tu cuenta de Mercado Pago</p>
+                                        <p>Al finalizar tu compra, pagás con el dinero disponible en tu cuenta. Podés
+                                            ingresar dinero a Mercado Pago por Débito inmediato, transferencia bancaria
+                                            o en efectivo.</p>
+                                        <!-- SEPARADOR -->
+                                        <hr class="featurette-divider">
+                                        <h4 class="fw-semibold">Efectivo</h4>
+                                        <p class="fw-semibold">Acreditación instantánea.</p>
+                                        <!-- SEPARADOR -->
+                                        <hr class="featurette-divider">
+                                        <p class="fw-semibold">Dinero en tu cuenta de Mercado Pago</p>
+                                        <p>Al finalizar tu compra, pagás con el dinero disponible en tu cuenta. Podés
+                                            ingresar dinero a Mercado Pago por Débito inmediato, transferencia bancaria
+                                            o en efectivo.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary"
+                                            data-bs-dismiss="modal">Cerrar</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </section>
+                    </section>
+
+                    <section class="col-lg-4">
+                        <img class="tarjetaPagos rounded-circle imgTarj" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal" src="img/tarjetadebito.jpg" alt="Logo Tarjeta">
+                        <h5>Tarjeta de Débito</h5>
+                    </section>
+                    <section class="col-lg-4">
+                        <img class="tarjetaPagos rounded-circle imgTarj" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal" src="img/efectivo.jpg" alt="Logo Tarjeta">
+                        <h5>Efectivo</h5>
+                    </section>
 
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEPARADOR -->
+    <hr class="featurette-divider">
+
+    <!-- CARDS -->
+    
+    <section class="container row cardOrden ">
+        <div class="card text-center" style="width: 18rem;">
+            <img src="img/iphone15.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h4 class="card-title">Iphone 15 Pro</h4>
+                <p class="card-text">Disponible en 4 colores</p>
+                
+                <h5 class="card-text fw-bold">$2.290.000</h5>
+                <a href="#" class="btn btn-primary">Añadir al carrito</a>
+            </div>
+        </div>
+        <div class="card text-center" style="width: 18rem;">
+            <img src="img/motorazr.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h4 class="card-title">Motorola Razr</h4>
+                <p class="card-text">512 GB negro 12 GB RAM</p>
+                
+                <h5 class="card-text fw-bold">$650.000</h5>
+                <a href="#" class="btn btn-primary">Añadir al carrito</a>
+            </div>
+        </div>
+        <div class="card text-center" style="width: 18rem;">
+            <img src="img/samsung-a54.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h4 class="card-title">Samsung A54</h4>
+                <p class="card-text">256 GB graphite 8 GB RAM</p>
+                
+                <h5 class="card-text fw-bold">$310.000</h5>
+                <a href="#" class="btn btn-primary">Añadir al carrito</a>
+            </div>
+        </div>
+        <div class="card text-center" style="width: 18rem;">
+            <img src="img/auriculares.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h4 class="card-title">Airpods</h4>
+                <p class="card-text">3ª generación</p>
+                
+                <h5 class="card-text fw-bold">$116.000</h5>
+                <a href="#" class="btn btn-primary">Añadir al carrito</a>
+            </div>
+        </div>
+        <div class="card text-center" style="width: 18rem;">
+            <img src="img/gaming.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h4 class="card-title">Joystick PS5</h4>
+                <p class="card-text">Disponible en 10 colores</p>
+                
+                <h5 class="card-text fw-bold">$80.000</h5>
+                <a href="#" class="btn btn-primary">Añadir al carrito</a>
+            </div>
+        </div>
+        <div class="card text-center" style="width: 18rem;">
+            <img src="img/ps5.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h4 class="card-title">PS5</h4>
+                <p class="card-text">825GB Standar</p>
+                <p class="card-text">+ FIFA 23</p>
+                
+                <h5 class="card-text fw-bold">$750.000</h5>
+                <a href="#" class="btn btn-primary">Añadir al carrito</a>
             </div>
         </div>
     </section>

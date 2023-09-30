@@ -14,7 +14,18 @@
 }
 
 .cardOrden {
-    @include textos(flex, center, center);
+    @include textos(flex, space-between !important, center !important);
     margin: 20px !important;
-    padding: 0;
+    padding: 20px !important;
+}
+
+.imgCard {
+    @include img(250px, 250px, 10px, 0)
+}
+
+.imgCard:hover{
+    scale: 105%;
+    transition: scale 2s;
+    cursor: pointer;
+    box-shadow: 10px 4px 15px $terColor;;
 }

@@ -35,10 +35,24 @@ a:hover {
 
 .cardOrden {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-between !important;
+  align-items: center !important;
   margin: 20px !important;
-  padding: 0;
+  padding: 20px !important;
+}
+
+.imgCard {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  margin: 0;
+}
+
+.imgCard:hover {
+  scale: 105%;
+  transition: scale 2s;
+  cursor: pointer;
+  box-shadow: 10px 4px 15px #b9bdca;
 }
 
 .linkLogo {

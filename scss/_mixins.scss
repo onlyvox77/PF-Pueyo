@@ -3,3 +3,10 @@
     justify-content: $justi;
     align-items: $align;
 }
+
+@mixin img($width,$height,$border,$margin){
+    width: $width;
+    height: $height;
+    border-radius: $border;
+    margin: $margin;
+}
